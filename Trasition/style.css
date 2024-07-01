@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellowgreen;
+    align-items: center;
+    transition: background-color padding ;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+}
+
+.red:hover{
+    background-color: red;
+    padding: 500px;
+    border-radius: 100px;
+}

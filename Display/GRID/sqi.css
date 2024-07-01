@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+ padding: 20px;
+ background-color: black;
+}
+
+.two{
+    padding: 20px;
+background-color: blue;
+}
+.three{
+    padding: 20px;
+background-color: red;
+}
+
+section{
+    display: grid;
+    /* grid-template-rows:500px 100vh ; */
+    grid-template-columns:1fr 1fr 1fr;
+    /* padding: 10px;
+    gap: 20px 30px; */
+    
+    
+    
+}

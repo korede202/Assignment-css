@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color1{
+    background-image: linear-gradient(rgba(188, 61, 61, 0.5) , rgba(18, 13, 160, 0.3)), url(./images/student-3500990_960_720_opt.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    width: 390px;
+    margin: 5px;
+}
